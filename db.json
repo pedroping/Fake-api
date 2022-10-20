@@ -63,21 +63,5 @@
       "proprietarioId": "Mauricio",
       "id": 3
     }
-  ],
-  "proprietario": [
-    {
-      "id": 1,
-      "nome": "Fulano",
-      "imovelId": [
-        1
-      ]
-    },
-    {
-      "id": 2,
-      "nome": "Pedro",
-      "imovelId": [
-        2
-      ]
-    }
   ]
 }
