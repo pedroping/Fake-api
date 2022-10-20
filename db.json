@@ -1,0 +1,83 @@
+{
+  "imovel": [
+    {
+      "cep": "3333-333",
+      "nome": "Imóvel 2",
+      "banheiros": 3,
+      "tipos": "Apartamento",
+      "valor": 300000,
+      "condominio": 450.9,
+      "quartos": 3,
+      "mobiliado": true,
+      "area": 80,
+      "venda": true,
+      "aluguel": true,
+      "dataAnuncio": "2022-10-22",
+      "rua": "Rua exemplo imóvel 1",
+      "numero": 100,
+      "bairro": "Exemplo de bairro",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "proprietarioId": "Fulano",
+      "id": 1
+    },
+    {
+      "cep": "32655582",
+      "nome": "Casa 2",
+      "banheiros": 2,
+      "tipos": "Casa, Apartamento",
+      "valor": 2000000,
+      "condominio": 500,
+      "quartos": 3,
+      "mobiliado": true,
+      "area": 600,
+      "venda": true,
+      "aluguel": true,
+      "dataAnuncio": "2022-10-20",
+      "rua": "Atalia",
+      "numero": 655,
+      "bairro": "São João",
+      "cidade": "Betim",
+      "uf": "Mg",
+      "proprietarioId": "Pedro",
+      "id": 2
+    },
+    {
+      "cep": "32655582",
+      "nome": "Apartamento caro",
+      "banheiros": 2,
+      "tipos": "Apartamento",
+      "valor": 2000000,
+      "condominio": 1000,
+      "quartos": 5,
+      "mobiliado": false,
+      "area": 500,
+      "venda": false,
+      "aluguel": false,
+      "dataAnuncio": "2022-10-20",
+      "rua": "Rua de Casa cara",
+      "numero": 900,
+      "bairro": "Bairro de Casa cara",
+      "cidade": "Cidade de Casa cara",
+      "uf": "SP",
+      "proprietarioId": "Mauricio",
+      "id": 3
+    }
+  ],
+  "proprietario": [
+    {
+      "id": 1,
+      "nome": "Fulano",
+      "imovelId": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Pedro",
+      "imovelId": [
+        2
+      ]
+    }
+  ]
+}
